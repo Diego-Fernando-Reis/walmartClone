@@ -1,0 +1,156 @@
+header{
+  width: 100%;
+  background-color: #0071DC;
+}
+
+header .interno{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+header .top{
+  padding: 22px 0;
+  border-bottom: 1px solid #fff;
+}
+
+header .logo{
+  margin-right: 20px;
+}
+
+header ul{
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li{
+  color: white;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+header ul li .direita p{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+header ul li .direita h2{
+  font-size: 16px;
+}
+
+header ul li i{
+  margin-right: 10px;
+}
+
+header .search{
+  width: 55%;
+  display: flex;
+  height: 42px;
+}
+
+header .search input{
+  width: 100%;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0 20px;
+}
+
+header .search button{
+  width: 90px;
+  background-color: white;
+  text-align: right;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+header .search button i{
+  background-color: #FFC220;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 50%;
+  margin: 3px;
+  color: rgb(78, 78, 78);
+}
+
+header ul li .cart{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+header ul li .cart .number{
+  background-color: #FFC220;
+  border: 2px solid #000000ab;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+header ul li .cart p{
+  font-size: 11px;
+  font-weight: 400;
+}
+
+header ul li .cart .number p{
+  font-size: 12px;
+  color: #000000ab;
+}
+
+header .down{
+  padding: 10px 0;
+}
+
+header .down .esquerda{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header .down .esquerda img{
+  width: 25px;
+  margin-right: 10px;
+}
+
+header .down p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+header .down span{
+  font-weight: bold;
+}
+
+header .down ul li{
+  margin: 0 12px;
+}
+
+header .down ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
